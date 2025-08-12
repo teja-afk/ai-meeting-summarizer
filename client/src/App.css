@@ -1,0 +1,97 @@
+/* client/src/App.css */
+
+.highlight {
+  background-color: #fdd835; /* A nice yellow highlight color */
+  color: #000;
+  border-radius: 3px;
+}
+
+.transcription-area {
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.audio-player {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.utterance {
+    margin-bottom: 10px;
+}
+
+/* client/src/App.css */
+.App-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.history-panel {
+  width: 25%;
+  min-width: 250px;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f1f3f4;
+  padding: 15px;
+  border-right: 1px solid #dadce0;
+}
+
+.history-item {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.history-item:hover {
+  background-color: #e8f0fe;
+  border-color: #1a73e8;
+}
+
+.main-panel {
+  width: 75%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* client/src/App.css */
+
+.actions-section {
+  margin-bottom: 20px;
+}
+
+.actions-section button {
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #1a73e8;
+  background-color: #1a73e8;
+  color: white;
+}
+
+.actions-section button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.summary-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  border: 1px solid #d2e3fc;
+}
+
+.summary-section h3 {
+  margin-top: 0;
+}
