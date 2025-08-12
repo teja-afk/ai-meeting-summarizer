@@ -17,14 +17,14 @@ A smart web app that transcribes and summarizes meetings using AI — helping te
 
 ## 🚀 Tech Stack
 
-| Layer         | Technology               |
-|---------------|---------------------------|
-| Frontend      | React / Next.js           |
-| Backend       | Node.js / Python (Flask/FastAPI) |
-| Transcription | OpenAI Whisper / AssemblyAI |
-| Summarization | OpenAI GPT / HuggingFace models |
-| Storage       | MongoDB / Firebase / S3   |
-| Deployment    | Vercel (frontend), Render/Heroku (backend) |
+| Layer         | Technology                          |
+|---------------|-------------------------------------|
+| Frontend      | React                               |
+| Backend       | Node.js                             |
+| Transcription | OpenAI Whisper / AssemblyAI         |
+| Summarization | OpenAI GPT / HuggingFace models     |
+| Storage       | MongoDB                             |
+| Deployment    | Vercel (frontend), Heroku (backend) |
 
 ---
 
@@ -43,25 +43,6 @@ A smart web app that transcribes and summarizes meetings using AI — helping te
 │
 └── README.md
 
-
----
-
-## 🛠 Installation & Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/ai-meeting-summarizer.git
-cd ai-meeting-summarizer
-
-# Frontend setup
-cd client
-npm install
-npm start
-
-# Backend setup
-cd ../server
-npm install  # or pip install -r requirements.txt (for Python backend)
-npm start    # or python app.py
 
 📸 Screenshots (To be added)
 
